@@ -12,6 +12,11 @@ I am a Full Stack Developer and Artificial Intelligence & Machine Learning engin
 
 ### 💻 Featured Architecture
 
+#### [AI Resume Builder | Decoupled SaaS Architecture](https://resume-analyser.pages.dev)
+- Architected a decoupled full-stack SaaS platform utilizing a Next.js static edge frontend (Cloudflare) and an Express/PostgreSQL API layer (Render).
+- Engineered secure cross-domain authentication using Google OAuth 2.0 with Just-In-Time (JIT) user provisioning and custom JWT sessions.
+- Secured backend infrastructure against automated attacks using reverse-proxy IP rate limiting (`X-Forwarded-For`) and strict CORS origin validation.
+
 #### [ChatUp | Real-Time Chat Architecture](https://github.com/DineshS36/chatup)
 - Engineered a real-time messaging layer using Socket.io and Node.js.
 - Capable of sustaining **10,000 to 30,000 concurrent connections** using optimized in-memory data structures.
